@@ -130,7 +130,7 @@ elif task == "تلخيص مستند":
                         {"role": "user", "content": text}
                     ]
                 )
-                summary = response.choices[0].message["content"] + signature
+                summary = response.choices[0].message["content"] 
                 st.markdown("### الملخص:")
                 st.write(summary)
 
@@ -170,7 +170,7 @@ elif task == "صياغة سياسة جديدة":
                         {"role": "user", "content": policy_topic}
                     ]
                 )
-                policy = response.choices[0].message["content"] + signature
+                policy = response.choices[0].message["content"]
                 st.markdown("### السياسة المقترحة:")
                 st.write(policy)
 
@@ -194,7 +194,7 @@ else:
                         {"role": "user", "content": user_input}
                     ]
                 )
-                answer = response.choices[0].message["content"] + signature
+                answer = response.choices[0].message["content"] 
                 st.markdown("### الإجابة:")
                 st.write(answer)
 

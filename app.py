@@ -46,7 +46,7 @@ st.markdown(
 
 
 # الشعار والعنوان والتحذير
-st.image("logo.png", width=120)
+#st.image("logo.png", width=120)
 
 st.markdown("## المساعد الحكومي")
 

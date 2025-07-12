@@ -10,7 +10,7 @@ from docx import Document
 
 
 # إعدادات الصفحة
-st.set_page_config(page_title="مساعد الحكومي ", page_icon="mof_favicon.jpg", layout="centered")
+st.set_page_config(page_title="مساعد الحكومي ", page_icon="logo_gov.png", layout="centered")
 
 # CSS لتنسيق الواجهة
 st.markdown(

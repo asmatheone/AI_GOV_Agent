@@ -104,7 +104,7 @@ if task == "المخاطر المتوقعة للمؤشرات":
                         {"role": "user", "content": indicator}
                     ]
                 )
-                risks = response.choices[0].message["content"] + signature
+                risks = response.choices[0].message["content"] 
                 st.markdown("### المخاطر المتوقعة:")
                 st.write(risks)
 
